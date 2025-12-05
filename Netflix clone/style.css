@@ -1,0 +1,292 @@
+body{
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+
+.Netflix-page{
+  width:100%;
+  height:100vh;
+  overflow: hidden;
+}
+
+.netflix-img{
+  width: 100%;
+  
+}
+
+.tint{
+  background-color: rgba(0, 0, 0, 0.405) ;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.842) 100%);
+  position: absolute;
+  top:0;
+  right:0;
+  left: 0;
+  bottom:0;
+  height: 100vh;
+}
+
+.content{
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 600px;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title{
+  font-size: 58px;
+  margin-bottom: 20px;
+}
+.inner-para{
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.nav{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  top:6%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.logo{
+  color: red;
+  margin-top: 120px;
+  height: 140px;
+  width: 140px; 
+}
+.flex-btns{
+  display: flex;
+  gap:16px;
+  margin-top: 5px auto;
+}
+.sign-in{
+  background-color: red;
+  color: white;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.en-btn{
+  background-color: #0000006e;
+  color: white;
+  border: 1px solid #eeeeee87;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+}
+.email{
+  width:350px;
+  background-color: rgba(128, 128, 128, 0.099);
+  border:none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid white;
+}
+.get-started{
+  width:250px;
+  background-color: rgb(144, 11, 11);
+  color: white;
+  padding: 16px;
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.sign-up{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.flex-cards{
+  display: flex;
+}
+
+.card{
+  width:220px;
+  height: 270px;
+  position: relative;
+}
+
+.image-class{
+  padding: 8px 22px;
+  width:180px;
+  height:250px;
+}
+
+.card-rank{
+  position: absolute;
+  left: -2.5px;
+  bottom: 30px;
+  height: 120px;
+  color: black;
+  font-size: 110px;
+  font-weight: 900;
+  -webkit-text-stroke: 2px white;
+}
+
+.container1{
+  width:1100px;
+  margin: 40px auto;
+}
+
+
+.heading{
+  color: white;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden; 
+}
+
+.container2{
+  width:1200px;
+  margin: 20px auto;
+}
+.cards-container{
+  display: flex;
+  gap:16px;
+}
+
+.movie-cards{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: rgba(33, 5, 68, 0.532);
+  color: white;
+  border-radius: 12px;
+}
+
+.card-content{
+  padding: 10px 10px;
+  text-align: left;
+}
+
+.card-logo{
+  position: absolute;
+  bottom: 25px;
+  right:20px;
+}
+.container3{
+  width:1200px;
+  margin: 80px auto;
+}
+
+.bar{
+  color:white;
+  background-color: rgba(56, 54, 54, 0.822);
+  width:1200px;
+  display:flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.bar:hover {
+  background-color: rgba(83, 75, 75, 0.822);; 
+  cursor: pointer;       
+}
+
+.container4 {
+  color: white;
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.container5 {
+  color: white;
+  width: 1200px;
+  margin: 20px auto;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.inner-para{
+  margin-bottom: 16px;
+}
+.page-sign-up{
+  display: flex;
+  gap: 20px;
+  align-items: stretch;;
+  justify-content: center;
+  object-fit: cover; /* or contain */
+  width: 100%;
+}
+
+.email {
+  flex: 1;
+  padding: 16px;
+  border: 1px solid #555;
+  background: black;
+  color: white;
+  font-size: 16px;
+}
+
+.get-started {
+  padding: 0 24px;
+  border: none;
+  background: #e50914;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.para{
+  color:white;
+  margin-bottom: 50px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;       
+  max-width: 1000px;
+  margin: 20px 0;
+}
+
+.footer-links a {
+  flex: 0 0 25%;           
+  margin-bottom: 12px;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.color{
+  background-color: rgba(128, 128, 128, 0.214);
+  margin-bottom: 30px;
+}
+
+.footer{
+  font-size: 12px;
+  margin-top: 25px;
+}
+
