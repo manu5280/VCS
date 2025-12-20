@@ -454,7 +454,7 @@ display: flex;
 width: 80vw;
 margin: 0px auto;
 gap: 80px;
-font-size: 20px;
+font-size: 18px;
 }
 
 .left{
@@ -778,17 +778,17 @@ color: white;
 display: flex;
 width: 80vw;
 margin: 0px auto;
-gap: 10px;
-font-size: 18px;
+gap: 40px;
+font-size: 16px;
 }
 
 .left{
-margin-top: 0px;
-padding-top: 30px;
+padding-top: 25px;
+padding-bottom: 20px;
 width: 50%;
+text-align: left;
 }
 .right{
-margin-top: 0px;
 width: 50%;
 position: relative;
 }
