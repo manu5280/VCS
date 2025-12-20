@@ -459,6 +459,7 @@ font-size: 20px;
 
 .left{
 margin-top: 0px;
+padding-top: 40px;
 width: 50%;
 }
 .right{
@@ -777,12 +778,13 @@ color: white;
 display: flex;
 width: 80vw;
 margin: 0px auto;
-gap: 80px;
-font-size: 20px;
+gap: 10px;
+font-size: 18px;
 }
 
 .left{
 margin-top: 0px;
+padding-top: 30px;
 width: 50%;
 }
 .right{
@@ -1104,14 +1106,13 @@ display: flex;
 flex-direction: column;
 width: 80vw;
 margin: 0px auto;
-gap: 80px;
-font-size: 18px;
+font-size: 16px;
 }
 
 .left{
 margin: 0px;
 width: 100%;
-align-items: center;
+text-align: center;
 }
 
 .real-tv{
@@ -1122,7 +1123,6 @@ align-items: center;
  justify-content: center;
 }
 .right{
-margin-top: 0px;
 width: 100%;
 position: relative;
 align-items: center;
@@ -1209,7 +1209,7 @@ left:103px;
 
 .movie-cards{
   width: 90%;
-  height: 150px;
+  height: 180px;
   position: relative;
   background-color: rgba(33, 5, 68, 0.532);
   color: white;
@@ -1217,15 +1217,15 @@ left:103px;
 }
 
 .card-content{
-  padding: 10px 10px;
+  padding: 0px 10px;
   text-align: left;
   font-size: 90%;
 }
 
 .card-logo{
   position: absolute;
-  bottom: 10px;
-  right:10px;
+  bottom: 5px;
+  right:5px;
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -1285,6 +1285,7 @@ left:103px;
 
 .footer-links {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;       
   max-width: 1000px;
   margin: 20px 0;
